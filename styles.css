@@ -1,0 +1,39 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+    color: #333; /* Barva písmen */
+}
+
+.center-container {
+    text-align: center;
+}
+
+/* Styl pro nápis "Vložte své jméno:" */
+h1 {
+    color: #ff6600; /* Barva slov */
+    font-size: 24px;
+}
+
+/* Styl pro input a tlačítko */
+input, button {
+    padding: 10px;
+    font-size: 16px;
+}
+
+/* Styl pro tlačítko "Odeslat" */
+button {
+    background-color: #ff6600; /* Barva pozadí tlačítka */
+    color: white; /* Barva písmen na tlačítku */
+    border: none;
+    cursor: pointer;
+}
+
+/* Styl pro výsledek */
+#result {
+    margin-top: 10px;
+    font-size: 18px;
+}
